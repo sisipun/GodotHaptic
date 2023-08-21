@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800DC47B2A936E0E00C6280E /* haptic_module.mm in Sources */ = {isa = PBXBuildFile; fileRef = 800DC4792A936E0E00C6280E /* haptic_module.mm */; };
+		800DC47C2A936E0E00C6280E /* haptic.mm in Sources */ = {isa = PBXBuildFile; fileRef = 800DC47A2A936E0E00C6280E /* haptic.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		800DC45D2A936CD100C6280E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		800DC45F2A936CD100C6280E /* libhaptic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhaptic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DC4772A936E0E00C6280E /* haptic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haptic.h; sourceTree = "<group>"; };
+		800DC4782A936E0E00C6280E /* haptic_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haptic_module.h; sourceTree = "<group>"; };
+		800DC4792A936E0E00C6280E /* haptic_module.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = haptic_module.mm; sourceTree = "<group>"; };
+		800DC47A2A936E0E00C6280E /* haptic.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = haptic.mm; sourceTree = "<group>"; };
+		800DC4812A936E5C00C6280E /* haptic.gdip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = haptic.gdip; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800DC45C2A936CD100C6280E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800DC4562A936CD100C6280E = {
+			isa = PBXGroup;
+			children = (
+				800DC4612A936CD100C6280E /* haptic */,
+				800DC4602A936CD100C6280E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800DC4602A936CD100C6280E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800DC45F2A936CD100C6280E /* libhaptic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800DC4612A936CD100C6280E /* haptic */ = {
+			isa = PBXGroup;
+			children = (
+				800DC4822A936E6100C6280E /* config */,
+				800DC47D2A936E1400C6280E /* src */,
+			);
+			path = haptic;
+			sourceTree = "<group>";
+		};
+		800DC47D2A936E1400C6280E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				800DC47F2A936E2500C6280E /* module */,
+				800DC47E2A936E1C00C6280E /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		800DC47E2A936E1C00C6280E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				800DC4772A936E0E00C6280E /* haptic.h */,
+				800DC47A2A936E0E00C6280E /* haptic.mm */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		800DC47F2A936E2500C6280E /* module */ = {
+			isa = PBXGroup;
+			children = (
+				800DC4782A936E0E00C6280E /* haptic_module.h */,
+				800DC4792A936E0E00C6280E /* haptic_module.mm */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		800DC4822A936E6100C6280E /* config */ = {
+			isa = PBXGroup;
+			children = (
+				800DC4812A936E5C00C6280E /* haptic.gdip */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800DC45E2A936CD100C6280E /* haptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800DC4682A936CD100C6280E /* Build configuration list for PBXNativeTarget "haptic" */;
+			buildPhases = (
+				800DC45B2A936CD100C6280E /* Sources */,
+				800DC45C2A936CD100C6280E /* Frameworks */,
+				800DC45D2A936CD100C6280E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = haptic;
+			productName = haptic;
+			productReference = 800DC45F2A936CD100C6280E /* libhaptic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800DC4572A936CD100C6280E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					800DC45E2A936CD100C6280E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 800DC45A2A936CD100C6280E /* Build configuration list for PBXProject "haptic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800DC4562A936CD100C6280E;
+			productRefGroup = 800DC4602A936CD100C6280E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800DC45E2A936CD100C6280E /* haptic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800DC45B2A936CD100C6280E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800DC47C2A936E0E00C6280E /* haptic.mm in Sources */,
+				800DC47B2A936E0E00C6280E /* haptic_module.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		800DC4662A936CD100C6280E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		800DC4672A936CD100C6280E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800DC4692A936CD100C6280E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/godot\"",
+					"\"$(SRCROOT)/godot/platform/iphone\"",
+				);
+				OTHER_CFLAGS = (
+					"\"-fcxx-modules\"",
+					"\"-fmodules\"",
+					"\"-DDEBUG\"",
+					"\"-DDEBUG_MEMORY_ALLOC\"",
+					"\"-DDISABLE_FORCED_INLINE\"",
+					"\"-DTYPED_METHOD_BIND\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800DC46A2A936CD100C6280E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/godot\"",
+					"\"$(SRCROOT)/godot/platform/iphone\"",
+				);
+				OTHER_CFLAGS = (
+					"\"-fcxx-modules\"",
+					"\"-fmodules\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800DC45A2A936CD100C6280E /* Build configuration list for PBXProject "haptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800DC4662A936CD100C6280E /* Debug */,
+				800DC4672A936CD100C6280E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800DC4682A936CD100C6280E /* Build configuration list for PBXNativeTarget "haptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800DC4692A936CD100C6280E /* Debug */,
+				800DC46A2A936CD100C6280E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800DC4572A936CD100C6280E /* Project object */;
+}
